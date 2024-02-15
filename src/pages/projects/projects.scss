@@ -1,0 +1,29 @@
+.project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.video-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center; // Esto centra el contenedor del video
+  width: 100%;
+  max-width: 800px; // Establece un ancho máximo para el contenedor del video
+  margin-left: auto; // Centra el contenedor del video en el eje horizontal
+  margin-right: auto; // Centra el contenedor del video en el eje horizontal
+}
+
+iframe {
+  width: 100%; // El video ocupa todo el ancho de su contenedor...
+  height: auto; // Ajusta la altura automáticamente para mantener la proporción
+  aspect-ratio: 16 / 9; // Mantiene la relación de aspecto del video
+}
+
+@media (max-width: 800px) {
+  .video-container iframe {
+    width: 100%; // En pantallas pequeñas, el video puede ocupar todo el ancho
+    height: auto; // La altura se ajusta automáticamente
+  }
+}
