@@ -72,17 +72,14 @@ export default function HomePage() {
               <p>Financial Controller</p>
               <p>December 2021 - September 2023</p>
               <ul>
-                <li>Realización de presupuesto y ajustes.</li>
-                <li>Análisis y control de gastos y costos.</li>
-                <li>
-                  Formación y asistencia dentro de la empresa al resto de las
-                  áreas.
-                </li>
+                <li>Budgeting and adjustments.</li>
+                <li>Analysis and control of expenses and costs.</li>
+                <li>Training and support within the company to other areas.</li>
                 <li>
                   Constant and good communication with all areas of the company.
                 </li>
-                <li>Expert use of Excel and Powerpoint.</li>
-                <li>Professional use of Agile, Sap, QlikView and Power BI.</li>
+                <li>Expert use of Excel and PowerPoint.</li>
+                <li>Professional use of Agile, SAP, QlikView, and Power BI.</li>
                 <li>Working online with people from all over the world.</li>
               </ul>
             </div>
