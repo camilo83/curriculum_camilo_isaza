@@ -1,0 +1,54 @@
+footer {
+  background-color: #222; // Dark background for the footer
+  color: #fff; // White text for contrast
+  padding: 20px 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .info-footer {
+    text-align: center;
+
+    h2 {
+      margin: 0;
+      color: #f0f0f0; // Slightly off-white for the main name
+    }
+
+    h3 {
+      margin: 5px 0;
+      color: #ccc; // Light grey for contact info
+      font-weight: normal;
+    }
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; // Space between social media icons
+
+    img {
+      width: 40px; // Uniform size for all social media icons
+      height: 40px;
+      transition: transform 0.3s ease; // Smooth transition for hover effect
+
+      &:hover {
+        transform: scale(1.1); // Slightly enlarge icons on hover
+      }
+    }
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 600px) {
+  footer {
+    flex-direction: column;
+
+    .info-footer,
+    .social-media {
+      margin: 10px 0; // Add margin for vertical stacking
+    }
+  }
+}
