@@ -24,7 +24,7 @@ export function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/logo_whatsapp.png" alt="WhatsApp" />
+          <img src="/logo_whatsapp.png" alt="Logo WhatsApp" />
         </a>
         <a
           href="https://github.com/camilo83"

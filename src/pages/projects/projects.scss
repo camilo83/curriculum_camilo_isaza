@@ -5,6 +5,21 @@
   text-align: center;
 }
 
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Crea tres columnas de igual ancho */
+  gap: 1rem;
+  width: 100%;
+
+  padding: 1rem;
+}
+
+.image-container img {
+  width: 100%; /* Hace que las imágenes ocupen todo el ancho de su celda de grid */
+  height: auto; /* Mantiene la proporción de las imágenes */
+  object-fit: cover; /* Asegura que las imágenes cubran el espacio sin distorsionarse */
+}
+
 .video-container {
   margin-top: 20px;
   display: flex;
@@ -15,14 +30,14 @@
   margin-right: auto; // Centra el contenedor del video en el eje horizontal
 }
 
-iframe {
+video {
   width: 100%; // El video ocupa todo el ancho de su contenedor...
   height: auto; // Ajusta la altura automáticamente para mantener la proporción
   aspect-ratio: 16 / 9; // Mantiene la relación de aspecto del video
 }
 
 @media (max-width: 800px) {
-  .video-container iframe {
+  .video-container video {
     width: 100%; // En pantallas pequeñas, el video puede ocupar todo el ancho
     height: auto; // La altura se ajusta automáticamente
   }
