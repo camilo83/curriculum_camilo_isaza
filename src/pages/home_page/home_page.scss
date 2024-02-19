@@ -3,16 +3,82 @@ main {
   color: #ffffff;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 20px;
+
+  .personal-info .personal-info-skills div:nth-child(1) {
+    background-color: #f0db4f;
+    color: #000000;
+  }
+
+  .personal-info .personal-info-skills div:nth-child(2) {
+    background-color: #007acc;
+    color: #ffffff;
+  }
+
+  .personal-info .personal-info-skills div:nth-child(3) {
+    background-color: #1a3f4a;
+    color: #ffffff;
+  }
+
+  .personal-info .personal-info-skills div:nth-child(4) {
+    background-color: #332052;
+    color: #ffffff;
+  }
+
+  .personal-info .personal-info-skills div:nth-child(5) {
+    background-color: #dc9cbc;
+    color: #ffffff;
+  }
+
+  .personal-info .personal-info-skills div:nth-child(6) {
+    background-color: #75ae76;
+    color: #ffffff;
+  }
+
+  .personal-info .personal-info-skills div:nth-child(7) {
+    background-color: #96cd53;
+    color: #ffffff;
+  }
+
+  .personal-info .personal-info-skills div:nth-child(8) {
+    background-color: #401db1;
+    color: #ffffff;
+  }
+
+  .personal-info .personal-info-skills div:nth-child(9) {
+    background-color: #d87056;
+    color: #ffffff;
+  }
+
+  .personal-info .personal-info-skills div:nth-child(10) {
+    background-color: #5889b1;
+    color: #ffffff;
+  }
+
   .personal-info {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  .personal-info img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    .foto-camilo img {
+      width: 100px !important;
+      height: 100px !important;
+      border-radius: 50% !important;
+    }
+    .personal-info-skills {
+      margin-top: 1.2rem;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+      div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.4rem;
+        border: 1px solid transparent;
+        padding-inline: 8px;
+        border-radius: 0.5rem;
+      }
+    }
   }
 
   .personal-info h2,

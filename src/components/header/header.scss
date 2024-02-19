@@ -1,3 +1,20 @@
+.language {
+  background-color: #333;
+  display: flex;
+  justify-content: end;
+  padding-right: 1rem;
+  button {
+    background-color: transparent;
+    border: none;
+    padding-top: 1rem;
+    img {
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+
 header {
   background-color: #333;
   color: #fff;
